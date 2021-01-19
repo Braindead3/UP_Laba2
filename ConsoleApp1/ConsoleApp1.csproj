@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0C52AB0E-E22C-43AB-B8DF-58DE8D698946}</ProjectGuid>
+    <ProjectGuid>{11ADF659-360F-403B-85DA-6876ED094628}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UP_Laba2</RootNamespace>
-    <AssemblyName>UP_Laba2</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Massiv.cs" />
-    <Compile Include="Matrix.cs" />
-    <Compile Include="MatrixMaxPath.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sklad.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
